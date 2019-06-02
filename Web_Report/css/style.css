@@ -1,0 +1,139 @@
+.html, body{
+	background-color: #d9d9d9;
+	font-family: 'Lora', serif;
+	margin: 0 170px;
+	padding: 0;
+}
+/*I am targeting the body element by giving it color, specifying the new font, and the position in the page.*/
+.group button {
+    background-color: #666666;
+    border: 0.85px solid gray;
+    padding: 10px 35.6px;	
+    float: left; 
+	text-transform: uppercase;
+}
+/*My button element was quite messy at the beginning bu I managed to fix the text, alingnment, color, border...*/
+.group button a{
+	color: #333333;
+	font-family: Lora;
+}
+/*More color for the text and had to specify the font again*/
+.group button:not(:last-child) {
+    border-right: none;
+}
+/* ...but not double borders as it makes the buttons look non-symmetrical*/
+.group button:hover {
+    background-color: #990000;
+}
+/*Adding a different color on hover*/
+header{
+	background-color: #666666;
+	margin: 0;
+	padding: 10px 0px;
+	float: left;
+	width: 100%;
+}
+/*Now i am targeting the header with background color, positioning.*/
+footer{
+	background-color: #666666;
+	margin: 0;
+	padding: 10px 0px;
+	float: left;
+	width: 100%;
+}
+/*Same for the footer.*/
+footer h1{
+	padding: 3px;
+	float: left;
+	color: #990000;
+	font-weight: bold;
+	font-size: 17px;
+}
+/*Footer heading's properties.*/
+footer a{
+	font-color: #990000;
+	padding: 3px;
+	float: right;
+	color: #990000;
+	font-weight: bold;
+}
+/*The properties for the email link (I had a space left behind that took years of my life to figure it out!!!!!!!*/
+div.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	color: #333333
+}
+/*The reason we put a container, so all in it looks the same*/
+img{
+	margin: 2px;
+	padding: 1px;
+}
+/*My images have to stay a bit away from the text in the body*/
+header h1{
+	padding: 3px;
+	float: left;
+	color: #990000;
+	font-weight: bold;
+	font-size: 17px;
+	text-transform: uppercase;
+}	
+header ul{
+	float: right;
+	margin: 0;
+	padding: 3px;
+	list-style-type: none;
+}
+header ul li a{
+	margin: 0;
+	padding: 1px;
+	color: #333333;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}	
+/*I am targeting all the attributes of the header and giving them correct properties.*/
+article{
+	margin: 0;
+	padding: 3px;
+	color: #333333
+}
+article h3{
+	margin: 3px;
+	padding: 5px;
+	color: #101010;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+article h2{
+	margin: 3px;
+	padding: 5px;
+	color: #101010;
+	font-weight: bold;
+	text-decoration: none;
+}
+article h4{
+	margin: 3px;
+	padding: 5px;
+	color: #101010;
+	font-weight: bold;
+	text-decoration: none;
+}
+article a{
+	margin: 0;
+	padding: 0;
+	color: #101010;
+	text-decoration: none;
+}
+/*Same for the atricles.*/
+blockquote{
+	padding: 5px;
+	color: #101010;
+}
+/*Positioning and a bit darker shade of grey for the blockquote*/
+/**/
+div.group{
+	font-family: Lora;
+}
+	
